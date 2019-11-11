@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Setting View Controller-->
+        <scene sceneID="ZOE-qf-R0z">
+            <objects>
+                <viewController storyboardIdentifier="SettingViewController" id="2En-8W-PDs" customClass="SettingViewController" customModule="EGBase_MVVM_C" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Hwn-ZH-Etb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ch8-Gb-gWh">
+                                <rect key="frame" x="87.5" y="223" width="200" height="45"/>
+                                <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="8Cj-RO-Po9"/>
+                                    <constraint firstAttribute="height" constant="45" id="Vaa-JU-MWz"/>
+                                </constraints>
+                                <state key="normal" title="About Us">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapAboutUsBtn:" destination="2En-8W-PDs" eventType="touchUpInside" id="XgN-Em-c3q"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dol-hC-NeP">
+                                <rect key="frame" x="87.5" y="314" width="200" height="45"/>
+                                <color key="backgroundColor" red="1" green="0.24581943610000001" blue="0.22707547119999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <state key="normal" title="Logout">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapLogoutBtn:" destination="2En-8W-PDs" eventType="touchUpInside" id="nyl-AR-CvR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ch8-Gb-gWh" firstAttribute="width" secondItem="Dol-hC-NeP" secondAttribute="width" id="Gmm-y8-cVT"/>
+                            <constraint firstItem="Dol-hC-NeP" firstAttribute="centerX" secondItem="Hwn-ZH-Etb" secondAttribute="centerX" id="LbY-lA-u6B"/>
+                            <constraint firstItem="ch8-Gb-gWh" firstAttribute="centerY" secondItem="Hwn-ZH-Etb" secondAttribute="centerY" constant="-88" id="U8V-j7-S7x"/>
+                            <constraint firstItem="ch8-Gb-gWh" firstAttribute="centerX" secondItem="Hwn-ZH-Etb" secondAttribute="centerX" id="VNl-iH-G1j"/>
+                            <constraint firstItem="ch8-Gb-gWh" firstAttribute="height" secondItem="Dol-hC-NeP" secondAttribute="height" id="YZv-TP-WVj"/>
+                            <constraint firstItem="Dol-hC-NeP" firstAttribute="top" secondItem="ch8-Gb-gWh" secondAttribute="bottom" constant="46" id="Z3z-lB-eMQ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="cE3-bP-fg8"/>
+                    </view>
+                    <connections>
+                        <outlet property="aboutUsBtn" destination="ch8-Gb-gWh" id="V0v-ga-9dn"/>
+                        <outlet property="logoutBtn" destination="Dol-hC-NeP" id="nLR-B0-Kew"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="USA-i0-Kqe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--About Us View Controller-->
+        <scene sceneID="qYQ-qk-tdY">
+            <objects>
+                <viewController storyboardIdentifier="AboutUsViewController" id="0F6-mC-Szy" customClass="AboutUsViewController" customModule="EGBase_MVVM_C" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Exo-6V-Vgq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y3x-dd-dkL">
+                                <rect key="frame" x="15" y="50" width="345" height="567"/>
+                                <string key="text">Life is a battle.
+
+From conception to grave, every one of us must struggle.
+
+We face difficulties at school, at work, and in our families. We deal with adverse weather, disease, and social conflict.
+
+Life is work. Life is tough.
+
+And like the airplane that takes off against the wind, we can use that which opposes us to our own advantage.
+
+Here’s how….
+
+We have a history of overcoming obstacles. Every new land explored, every new idea tested, and every major crisis averted helps prove one thing:
+
+We are warriors.
+
+To have gotten this far means that it’s in the very nature of humanity to strive for something greater. There’s a warrior spirit in each of us, and ignoring that spirit leads us to feel unfulfilled and depressed. Ignoring the warrior within hurts us deeply.</string>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Y3x-dd-dkL" firstAttribute="centerX" secondItem="Exo-6V-Vgq" secondAttribute="centerX" id="MAu-fZ-MiG"/>
+                            <constraint firstItem="Y3x-dd-dkL" firstAttribute="top" secondItem="xmK-aD-431" secondAttribute="top" constant="30" id="fEq-kF-TgL"/>
+                            <constraint firstItem="Y3x-dd-dkL" firstAttribute="leading" secondItem="xmK-aD-431" secondAttribute="leading" constant="15" id="iO7-bO-RU2"/>
+                            <constraint firstItem="Y3x-dd-dkL" firstAttribute="centerY" secondItem="Exo-6V-Vgq" secondAttribute="centerY" id="nW2-Ao-QNd"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="xmK-aD-431"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tW5-P7-kZ4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
