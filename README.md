@@ -1,15 +1,7 @@
 # UT_Training_G8
 
-# Giới thiệu 
 
 ## Nội dung 
-1. Basic XCTest 
-2. Advance Testing
-3. Tài liệu tham khảo 
-- https://www.vadimbulavin.com/unit-testing-best-practices-on-ios-with-swift/
-- https://link.sun-asterisk.vn/9mXbNM 
-- https://www.raywenderlich.com/960290-ios-unit-testing-and-ui-testing-tutorial 
-- https://developer.apple.com/videos/play/wwdc2019/413/
 
   * [**Basic**]()
     * [**Giới thiệu UnitTest**](https://github.com/hanhvv-0858/UT_Training_G8/wiki/Gi%E1%BB%9Bi-thi%E1%BB%87u-nhanh-Unit-test-trong-Xcode!)
@@ -25,3 +17,9 @@
     * [**Test Model**](https://github.com/hanhvv-0858/UT_Training_G8/wiki/Test-Model)
     * [**Test API**](https://github.com/hanhvv-0858/UT_Training_G8/wiki/Test-API)
     * [**Test ViewModel**]()
+
+## Tài liệu tham khảo 
+- https://www.vadimbulavin.com/unit-testing-best-practices-on-ios-with-swift/
+- https://link.sun-asterisk.vn/9mXbNM 
+- https://www.raywenderlich.com/960290-ios-unit-testing-and-ui-testing-tutorial 
+- https://developer.apple.com/videos/play/wwdc2019/413/
