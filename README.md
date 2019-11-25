@@ -1,5 +1,6 @@
 # UT_Training_G8
-
+## Giới thiệu
+ Đây là 1 số tài liệu liên quan đến việc viết Unit test.
 
 ## Nội dung 
 
