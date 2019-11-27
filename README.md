@@ -17,7 +17,8 @@
     * [**Performance Tests**](https://github.com/hanhvv-0858/UT_Training_G8/wiki/Performance-Test)
     * [**Test Model**](https://github.com/hanhvv-0858/UT_Training_G8/wiki/Test-Model)
     * [**Test API**](https://github.com/hanhvv-0858/UT_Training_G8/wiki/Test-API)
-    * [**Test ViewModel**]()
+    * [**Test ViewModel**](https://github.com/hanhvv-0858/UT_Training_G8/wiki/Test-Model)
+    * [**Test ViewController (Navigator)**](https://github.com/hanhvv-0858/UT_Training_G8/wiki/Test-ViewController-(Navigator))
 
 ## Tài liệu tham khảo 
 - https://www.vadimbulavin.com/unit-testing-best-practices-on-ios-with-swift/
