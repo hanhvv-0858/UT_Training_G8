@@ -17,7 +17,7 @@
     * [**Performance Tests**](https://github.com/hanhvv-0858/UT_Training_G8/wiki/Performance-Test)
     * [**Test Model**](https://github.com/hanhvv-0858/UT_Training_G8/wiki/Test-Model)
     * [**Test API**](https://github.com/hanhvv-0858/UT_Training_G8/wiki/Test-API)
-    * [**Test ViewModel**](https://github.com/hanhvv-0858/UT_Training_G8/wiki/Test-Model)
+    * [**Test ViewModel**](https://github.com/hanhvv-0858/UT_Training_G8/wiki/Test-ViewModel)
     * [**Test ViewController (Navigator)**](https://github.com/hanhvv-0858/UT_Training_G8/wiki/Test-ViewController-(Navigator))
 
 ## Tài liệu tham khảo 
